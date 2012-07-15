@@ -1,0 +1,45 @@
+@import "rawr/lib/rawr";
+
+body {
+	background-image: url('static/images/subtlenet2.png');
+}
+h1, h2, h3, h4 {
+	color: @heading-text-color;
+}
+h1, h2, h3, h4 , h5, h6 {
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-weight: normal;
+	font-family: 'Francois One', sans-serif;
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 64px;
+}
+h2 {
+	color: lighten(@heading-text-color, 15%);
+	font-size: 48px;
+}
+h3 {
+	color: @force;
+	font-size: 36px;
+}
+h4 {
+	color: lighten(@heading-text-color, 10%);
+	font-size: 32px;
+}
+h5 {
+	font-size: 28px;
+}
+hgroup {
+	margin-bottom: 0px;
+}
+.no-margin-top {
+	margin-top: 0px !important;
+}
+.no-margin-bottom {
+	margin-bottom: 0px !important;
+}
+.solid.box {
+	background-color: #efefef;
+}
